@@ -36,9 +36,9 @@ namespace UnTangle
 
         #region Public Methods
 
-        public static void ChangeTheme(int theme)
+        public static void ChangeTheme(int Theme)
         {
-            ChangeThemeEvents?.Invoke(theme);
+            ChangeThemeEvents?.Invoke(Theme);
         }
 
         public static void SelectTheme()

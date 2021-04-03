@@ -148,16 +148,26 @@
   <data name="ButtonThemeDark.ToolTip" xml:space="preserve">
     <value>Изменение темы программы на тёмный стиль.</value>
   </data>
-  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 15</value>
-  </data>
-  <data name="LabelHotKey3.Text" xml:space="preserve">
-    <value>Alt + 2 — Изменить настройки редактирования текста</value>
-  </data>
   <data name="LabelHotKey2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 15</value>
+    <value>254, 15</value>
   </data>
   <data name="LabelHotKey2.Text" xml:space="preserve">
+    <value>Ctrl + ~ — Представить редактирование текста</value>
+  </data>
+  <data name="LabelHotKey2.ToolTip" xml:space="preserve">
+    <value>Для реализации метода необходимо выделить текст
+и нажать комбинацию клавиш Ctrl+~.</value>
+  </data>
+  <data name="LabelHotKey4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 15</value>
+  </data>
+  <data name="LabelHotKey4.Text" xml:space="preserve">
+    <value>Alt + 2 — Изменить настройки редактирования текста</value>
+  </data>
+  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 15</value>
+  </data>
+  <data name="LabelHotKey3.Text" xml:space="preserve">
     <value>Alt + 1 — Изменить тип редактирования текста</value>
   </data>
   <data name="LabelHotKey1.Size" type="System.Drawing.Size, System.Drawing">

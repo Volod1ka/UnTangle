@@ -74,7 +74,8 @@ namespace UnTangle
             this.ItemSeparate,
             this.ItemExit});
             this.NotifyContextMenu.Name = "contextMenuStrip1";
-            this.NotifyContextMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.NotifyContextMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.NotifyContextMenu.ShowImageMargin = false;
             // 
             // ItemShowWindow
             // 
@@ -319,10 +320,10 @@ namespace UnTangle
             // 
             // MainWindow
             // 
-            resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.LabelSettings);
             this.Controls.Add(this.LabelExit);
             this.Controls.Add(this.PanelTitleBar);

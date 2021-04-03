@@ -117,813 +117,188 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="RadioButtonEN.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="RadioButtonEN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="RadioButtonEN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 216</value>
-  </data>
-  <data name="RadioButtonEN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 19</value>
-  </data>
-  <data name="RadioButtonEN.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="RadioButtonEN.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEN.Name" xml:space="preserve">
-    <value>RadioButtonEN</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEN.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEN.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonEN.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="RadioButtonRU.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButtonRU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="RadioButtonRU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 216</value>
-  </data>
-  <data name="RadioButtonRU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 19</value>
-  </data>
-  <data name="RadioButtonRU.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="RadioButtonRU.Text" xml:space="preserve">
-    <value>Русский</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRU.Name" xml:space="preserve">
-    <value>RadioButtonRU</value>
-  </data>
   <data name="&gt;&gt;RadioButtonRU.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;RadioButtonRU.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonRU.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="RadioButtonUA.AutoSize" type="System.Boolean, mscorlib">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RadioButtonRU.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="RadioButtonUA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 216</value>
+  <data name="CheckBoxShowMainWindow.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="RadioButtonUA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="RadioButtonUA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 19</value>
-  </data>
-  <data name="RadioButtonUA.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="RadioButtonUA.Text" xml:space="preserve">
-    <value>Українська</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonUA.Name" xml:space="preserve">
-    <value>RadioButtonUA</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonUA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonUA.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;RadioButtonUA.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="CheckBoxAutorun.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CheckBoxAutorun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CheckBoxAutorun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 39</value>
-  </data>
-  <data name="CheckBoxAutorun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 19</value>
-  </data>
-  <data name="CheckBoxAutorun.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="CheckBoxAutorun.Text" xml:space="preserve">
-    <value>Запускати програму разом із системою</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxAutorun.Name" xml:space="preserve">
-    <value>CheckBoxAutorun</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxAutorun.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxAutorun.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxAutorun.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="LabelCancel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 6</value>
-  </data>
-  <data name="LabelCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 34</value>
-  </data>
-  <data name="LabelCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelCancel.Text" xml:space="preserve">
-    <value>Скасувати</value>
-  </data>
-  <data name="LabelCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>18, 17</value>
-  </metadata>
   <data name="LabelCancel.ToolTip" xml:space="preserve">
     <value>Відмінити налаштування та вихід на головне меню.</value>
   </data>
-  <data name="&gt;&gt;LabelCancel.Name" xml:space="preserve">
-    <value>LabelCancel</value>
-  </data>
-  <data name="&gt;&gt;LabelCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelCancel.Parent" xml:space="preserve">
-    <value>PanelBar</value>
-  </data>
-  <data name="&gt;&gt;LabelCancel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="LabelApply.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelApply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>306, 6</value>
-  </data>
-  <data name="LabelApply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 34</value>
-  </data>
-  <data name="LabelApply.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelApply.Text" xml:space="preserve">
-    <value>Застосувати</value>
-  </data>
-  <data name="LabelApply.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="LabelApply.ToolTip" xml:space="preserve">
-    <value>Зберегти та застосувати налаштування та вихід на головне меню.</value>
-  </data>
-  <data name="&gt;&gt;LabelApply.Name" xml:space="preserve">
-    <value>LabelApply</value>
-  </data>
-  <data name="&gt;&gt;LabelApply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelApply.Parent" xml:space="preserve">
-    <value>PanelBar</value>
-  </data>
-  <data name="&gt;&gt;LabelApply.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LabelVersionProgram.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelVersionProgram.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelVersionProgram.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelVersionProgram.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 14</value>
-  </data>
-  <data name="LabelVersionProgram.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
-  </data>
-  <data name="LabelVersionProgram.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelVersionProgram.Text" xml:space="preserve">
-    <value>Version</value>
-  </data>
-  <data name="LabelVersionProgram.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelVersionProgram.Name" xml:space="preserve">
-    <value>LabelVersionProgram</value>
-  </data>
-  <data name="&gt;&gt;LabelVersionProgram.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelVersionProgram.Parent" xml:space="preserve">
-    <value>PanelBar</value>
-  </data>
-  <data name="&gt;&gt;LabelVersionProgram.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PanelBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="PanelBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 414</value>
-  </data>
-  <data name="PanelBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 48</value>
-  </data>
-  <data name="PanelBar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PanelBar.Name" xml:space="preserve">
-    <value>PanelBar</value>
-  </data>
-  <data name="&gt;&gt;PanelBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PanelBar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PanelTitleBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="ButtonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Right</value>
-  </data>
-  <data name="ButtonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="ButtonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>544, 0</value>
-  </data>
-  <data name="ButtonClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="ButtonClose.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ButtonClose.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="&gt;&gt;ButtonClose.Name" xml:space="preserve">
-    <value>ButtonClose</value>
-  </data>
-  <data name="&gt;&gt;ButtonClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonClose.Parent" xml:space="preserve">
-    <value>PanelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;ButtonClose.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PanelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="PanelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 30</value>
-  </data>
-  <data name="PanelTitleBar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PanelTitleBar.Name" xml:space="preserve">
-    <value>PanelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;PanelTitleBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelTitleBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PanelTitleBar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ButtonThemeLight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonThemeLight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 138</value>
-  </data>
-  <data name="ButtonThemeLight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
-  </data>
-  <data name="ButtonThemeLight.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="ButtonThemeLight.Text" xml:space="preserve">
-    <value>Світла</value>
-  </data>
-  <data name="ButtonThemeLight.ToolTip" xml:space="preserve">
-    <value>Зміна теми програми на світлий стиль.</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeLight.Name" xml:space="preserve">
-    <value>ButtonThemeLight</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeLight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeLight.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeLight.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="ButtonThemeDark.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonThemeDark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="ButtonThemeDark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 138</value>
-  </data>
-  <data name="ButtonThemeDark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
-  </data>
-  <data name="ButtonThemeDark.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="ButtonThemeDark.Text" xml:space="preserve">
-    <value>Темна</value>
-  </data>
-  <data name="ButtonThemeDark.ToolTip" xml:space="preserve">
-    <value>Зміна теми програми на темний стиль.</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDark.Name" xml:space="preserve">
-    <value>ButtonThemeDark</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDark.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDark.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="LabelHotKey3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelHotKey3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 8.25pt</value>
-  </data>
-  <data name="LabelHotKey3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelHotKey3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 336</value>
-  </data>
-  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 15</value>
-  </data>
-  <data name="LabelHotKey3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelHotKey3.Text" xml:space="preserve">
-    <value>Alt + 2 — Змінити налаштування редагування тексту</value>
-  </data>
-  <data name="LabelHotKey3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey3.Name" xml:space="preserve">
-    <value>LabelHotKey3</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey3.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="LabelHotKey2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelHotKey2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 8.25pt</value>
-  </data>
-  <data name="LabelHotKey2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelHotKey2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 315</value>
-  </data>
-  <data name="LabelHotKey2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 15</value>
-  </data>
-  <data name="LabelHotKey2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelHotKey2.Text" xml:space="preserve">
-    <value>Alt + 1 — Змінити тип редагування тексту</value>
-  </data>
-  <data name="LabelHotKey2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey2.Name" xml:space="preserve">
-    <value>LabelHotKey2</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey2.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LabelHotKey1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelHotKey1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 8.25pt</value>
-  </data>
-  <data name="LabelHotKey1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelHotKey1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 294</value>
-  </data>
-  <data name="LabelHotKey1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 15</value>
-  </data>
-  <data name="LabelHotKey1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelHotKey1.Text" xml:space="preserve">
-    <value>Ctrl + Q — Активувати редагування тексту</value>
-  </data>
-  <data name="LabelHotKey1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="LabelHotKey1.ToolTip" xml:space="preserve">
-    <value>Для реалізації методу необхідно виділити текст
-та натиснути комбінацію клавіш Ctrl+Q.</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey1.Name" xml:space="preserve">
-    <value>LabelHotKey1</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey1.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKey1.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 104</value>
   </data>
   <data name="LabelHotKeys.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LabelHotKeys.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LabelHotKeys.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="RadioButtonRU.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelVersionProgram.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="LabelHotKeys.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 264</value>
-  </data>
-  <data name="LabelHotKeys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 18</value>
-  </data>
-  <data name="LabelHotKeys.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelHotKeys.Text" xml:space="preserve">
-    <value>Гарячі клавіші</value>
-  </data>
-  <data name="LabelHotKeys.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKeys.Name" xml:space="preserve">
-    <value>LabelHotKeys</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKeys.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKeys.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelHotKeys.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 260</value>
-  </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>510, 2</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="ButtonThemeDarkBlue.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="ButtonThemeDarkBlue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LabelHotKey2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="ButtonThemeDarkBlue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 138</value>
+  <data name="&gt;&gt;ButtonClose.Name" xml:space="preserve">
+    <value>ButtonClose</value>
   </data>
-  <data name="ButtonThemeDarkBlue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
-  </data>
-  <data name="ButtonThemeDarkBlue.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="ButtonThemeDarkBlue.Text" xml:space="preserve">
-    <value>Темно-синя</value>
-  </data>
-  <data name="ButtonThemeDarkBlue.ToolTip" xml:space="preserve">
-    <value>Зміна теми програми на темно-синій стиль.</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDarkBlue.Name" xml:space="preserve">
-    <value>ButtonThemeDarkBlue</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDarkBlue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDarkBlue.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;ButtonThemeDarkBlue.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="LabelLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelLanguage.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 186</value>
-  </data>
-  <data name="LabelLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 18</value>
-  </data>
-  <data name="LabelLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="LabelLanguage.Text" xml:space="preserve">
-    <value>Мова</value>
-  </data>
-  <data name="LabelLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelLanguage.Name" xml:space="preserve">
-    <value>LabelLanguage</value>
-  </data>
-  <data name="&gt;&gt;LabelLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelLanguage.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelLanguage.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="LabelTheme.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelTheme.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelTheme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelTheme.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 108</value>
-  </data>
-  <data name="LabelTheme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 18</value>
-  </data>
-  <data name="LabelTheme.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelTheme.Text" xml:space="preserve">
-    <value>Оформлення</value>
-  </data>
-  <data name="LabelTheme.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelTheme.Name" xml:space="preserve">
-    <value>LabelTheme</value>
-  </data>
-  <data name="&gt;&gt;LabelTheme.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelTheme.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelTheme.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="LabelMore.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LabelMore.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 9.75pt</value>
-  </data>
-  <data name="LabelMore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LabelMore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="LabelMore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 18</value>
-  </data>
-  <data name="LabelMore.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LabelMore.Text" xml:space="preserve">
-    <value>Додаткове</value>
-  </data>
-  <data name="LabelMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;LabelMore.Name" xml:space="preserve">
-    <value>LabelMore</value>
-  </data>
-  <data name="&gt;&gt;LabelMore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LabelMore.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;LabelMore.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 182</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>510, 2</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="CheckBoxShowMainWindow.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CheckBoxShowMainWindow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="CheckBoxShowMainWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 64</value>
-  </data>
-  <data name="CheckBoxShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>295, 19</value>
-  </data>
-  <data name="CheckBoxShowMainWindow.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;LabelHotKey3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="CheckBoxShowMainWindow.Text" xml:space="preserve">
-    <value>Відображати головне вікно при запуску програми</value>
+  <data name="&gt;&gt;RadioButtonRU.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;CheckBoxShowMainWindow.Name" xml:space="preserve">
-    <value>CheckBoxShowMainWindow</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxShowMainWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxShowMainWindow.Parent" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;CheckBoxShowMainWindow.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 104</value>
-  </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="ButtonThemeLight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>510, 2</value>
   </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="LabelHotKey2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 315</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="ButtonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ButtonThemeDarkBlue.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>PanelTools</value>
+  <data name="ButtonThemeLight.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="LabelHotKey3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="PanelTools.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 36</value>
+  <data name="&gt;&gt;LabelCancel.Parent" xml:space="preserve">
+    <value>PanelBar</value>
   </data>
-  <data name="PanelTools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 372</value>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
-  <data name="PanelTools.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PanelTools.Name" xml:space="preserve">
-    <value>PanelTools</value>
-  </data>
-  <data name="&gt;&gt;PanelTools.Type" xml:space="preserve">
+  <data name="&gt;&gt;PanelTitleBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PanelTools.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="PanelTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>545, 394</value>
+  </data>
+  <data name="LabelHotKey2.Text" xml:space="preserve">
+    <value>Ctrl + ~ — Представити редагування тексту</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeLight.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="PanelTitleBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelHotKey1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 15</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKey4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 357</value>
+  </data>
+  <data name="LabelHotKeys.Text" xml:space="preserve">
+    <value>Гарячі клавіші</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeLight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 19</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey3.Name" xml:space="preserve">
+    <value>LabelHotKey3</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeLight.Name" xml:space="preserve">
+    <value>ButtonThemeLight</value>
+  </data>
+  <data name="LabelApply.Text" xml:space="preserve">
+    <value>Застосувати</value>
+  </data>
+  <data name="LabelHotKey1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonThemeLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 138</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;LabelTheme.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;LabelVersionProgram.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 6</value>
+  </data>
+  <data name="LabelLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="CheckBoxAutorun.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;PanelTools.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="RadioButtonUA.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 462</value>
+  <data name="&gt;&gt;ButtonThemeDarkBlue.Name" xml:space="preserve">
+    <value>ButtonThemeDarkBlue</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Comic Sans MS, 8.25pt</value>
+  <data name="&gt;&gt;CheckBoxAutorun.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RadioButtonUA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 216</value>
+  </data>
+  <data name="&gt;&gt;LabelLanguage.Name" xml:space="preserve">
+    <value>LabelLanguage</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDark.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelVersionProgram.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonRU.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="PanelBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 48</value>
+  </data>
+  <data name="ButtonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="LabelHotKey2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 15</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2481,19 +1856,741 @@
         /AA=
 </value>
   </data>
+  <data name="&gt;&gt;RadioButtonEN.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabelHotKey1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="LabelMore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 9</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.ToolTip" xml:space="preserve">
+    <value>Зміна теми програми на темно-синій стиль.</value>
+  </data>
+  <data name="ButtonThemeDark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 18</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKeys.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonEN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 216</value>
+  </data>
+  <data name="&gt;&gt;PanelBar.Name" xml:space="preserve">
+    <value>PanelBar</value>
+  </data>
+  <data name="RadioButtonRU.Text" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="CheckBoxAutorun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 19</value>
+  </data>
+  <data name="LabelTheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 108</value>
+  </data>
+  <data name="LabelTheme.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;PanelTools.Name" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="ButtonThemeDark.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDark.Name" xml:space="preserve">
+    <value>ButtonThemeDark</value>
+  </data>
+  <data name="LabelTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelApply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonUA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey1.Name" xml:space="preserve">
+    <value>LabelHotKey1</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 64</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="LabelTheme.Text" xml:space="preserve">
+    <value>Оформлення</value>
+  </data>
+  <data name="&gt;&gt;PanelBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelLanguage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="LabelLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonUA.Name" xml:space="preserve">
+    <value>RadioButtonUA</value>
+  </data>
+  <data name="&gt;&gt;LabelCancel.Name" xml:space="preserve">
+    <value>LabelCancel</value>
+  </data>
+  <data name="LabelHotKey4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="LabelVersionProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelHotKey3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelHotKey4.Text" xml:space="preserve">
+    <value>Alt + 2 — Змінити налаштування редагування тексту</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="LabelVersionProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonUA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonEN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelHotKey4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxAutorun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxAutorun.Name" xml:space="preserve">
+    <value>CheckBoxAutorun</value>
+  </data>
+  <data name="ButtonThemeDark.ToolTip" xml:space="preserve">
+    <value>Зміна теми програми на темний стиль.</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDarkBlue.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="LabelMore.Text" xml:space="preserve">
+    <value>Додаткове</value>
+  </data>
+  <data name="&gt;&gt;PanelTools.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelApply.Name" xml:space="preserve">
+    <value>LabelApply</value>
+  </data>
+  <data name="PanelBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelHotKey1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 294</value>
+  </data>
+  <data name="ButtonThemeLight.Text" xml:space="preserve">
+    <value>Світла</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="LabelHotKey4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 15</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;LabelMore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelHotKey1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey2.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CheckBoxAutorun.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PanelTools.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.Parent" xml:space="preserve">
+    <value>PanelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey3.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.Text" xml:space="preserve">
+    <value>Відображати головне вікно при запуску програми</value>
+  </data>
+  <data name="LabelMore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxShowMainWindow.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="PanelBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDark.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;PanelTitleBar.Name" xml:space="preserve">
+    <value>PanelTitleBar</value>
+  </data>
+  <data name="&gt;&gt;PanelBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;LabelMore.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LabelTheme.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LabelHotKey3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 336</value>
+  </data>
+  <data name="LabelLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 186</value>
+  </data>
+  <data name="ButtonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RadioButtonEN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ButtonThemeDark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="PanelBar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKey4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioButtonUA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelVersionProgram.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LabelApply.ToolTip" xml:space="preserve">
+    <value>Зберегти та застосувати налаштування та вихід на головне меню.</value>
+  </data>
+  <data name="RadioButtonUA.Text" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="&gt;&gt;PanelTitleBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ButtonThemeDarkBlue.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PanelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 30</value>
+  </data>
+  <data name="LabelHotKey2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonThemeLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="RadioButtonEN.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonUA.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="LabelHotKey2.ToolTip" xml:space="preserve">
+    <value>Для реалізації методу необхідно виділити текст
+та натиснути комбінацію клавіш Ctrl+~.</value>
+  </data>
+  <data name="LabelHotKey3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="LabelLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 18</value>
+  </data>
+  <data name="PanelTitleBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RadioButtonEN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelApply.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelLanguage.Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="RadioButtonEN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="LabelApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 6</value>
+  </data>
+  <data name="&gt;&gt;LabelVersionProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelVersionProgram.Parent" xml:space="preserve">
+    <value>PanelBar</value>
+  </data>
+  <data name="LabelHotKeys.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKey2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 8.25pt</value>
+  </data>
+  <data name="LabelHotKey3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;LabelApply.Parent" xml:space="preserve">
+    <value>PanelBar</value>
+  </data>
+  <data name="ButtonClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ButtonThemeDark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 138</value>
+  </data>
+  <data name="LabelTheme.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKeys.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKeys.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
     <value>ToolTip</value>
   </data>
-  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LabelTheme.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>SettingsWindow</value>
+  <data name="ButtonClose.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;LabelCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.Text" xml:space="preserve">
+    <value>Темно-синя</value>
+  </data>
+  <data name="LabelTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonUA.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="RadioButtonEN.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonRU.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKey3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ButtonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ButtonThemeDarkBlue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ButtonThemeDark.Text" xml:space="preserve">
+    <value>Темна</value>
+  </data>
+  <data name="CheckBoxAutorun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 39</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="LabelMore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="LabelHotKey2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;LabelApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonUA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="LabelHotKey1.ToolTip" xml:space="preserve">
+    <value>Для реалізації методу необхідно виділити текст
+та натиснути комбінацію клавіш Ctrl+Q.</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonEN.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonRU.Name" xml:space="preserve">
+    <value>RadioButtonRU</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxAutorun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelHotKey1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxShowMainWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LabelHotKeys.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelMore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelHotKey3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelHotKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 264</value>
+  </data>
+  <data name="LabelHotKey1.Text" xml:space="preserve">
+    <value>Ctrl + Q — Активувати редагування тексту</value>
+  </data>
+  <data name="&gt;&gt;LabelMore.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="RadioButtonEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PanelTitleBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 260</value>
+  </data>
+  <data name="LabelHotKey4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LabelMore.Name" xml:space="preserve">
+    <value>LabelMore</value>
+  </data>
+  <data name="LabelHotKey4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PanelTools.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckBoxAutorun.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="ButtonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ButtonClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="RadioButtonRU.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelMore.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CheckBoxShowMainWindow.Name" xml:space="preserve">
+    <value>CheckBoxShowMainWindow</value>
+  </data>
+  <data name="LabelHotKey3.Text" xml:space="preserve">
+    <value>Alt + 1 — Змінити тип редагування тексту</value>
+  </data>
+  <data name="LabelMore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 18</value>
+  </data>
+  <data name="LabelHotKey1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 15</value>
+  </data>
+  <data name="&gt;&gt;LabelCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelVersionProgram.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelCancel.Text" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="&gt;&gt;LabelTheme.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey1.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CheckBoxAutorun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey4.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioButtonUA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;LabelLanguage.Parent" xml:space="preserve">
+    <value>PanelTools</value>
+  </data>
+  <data name="LabelVersionProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="&gt;&gt;LabelVersionProgram.Name" xml:space="preserve">
+    <value>LabelVersionProgram</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxShowMainWindow.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LabelMore.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="ButtonThemeDarkBlue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 138</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKeys.Name" xml:space="preserve">
+    <value>LabelHotKeys</value>
+  </data>
+  <data name="&gt;&gt;LabelTheme.Name" xml:space="preserve">
+    <value>LabelTheme</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>574, 484</value>
+  </data>
+  <data name="LabelTheme.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey4.Name" xml:space="preserve">
+    <value>LabelHotKey4</value>
+  </data>
+  <data name="&gt;&gt;RadioButtonEN.Name" xml:space="preserve">
+    <value>RadioButtonEN</value>
+  </data>
+  <data name="LabelLanguage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxShowMainWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelHotKey2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LabelApply.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 2</value>
+  </data>
+  <data name="&gt;&gt;PanelTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabelCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 34</value>
+  </data>
+  <data name="LabelApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 34</value>
+  </data>
+  <data name="PanelTitleBar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelVersionProgram.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PanelTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 36</value>
+  </data>
+  <data name="RadioButtonRU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="ButtonThemeDark.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey2.Name" xml:space="preserve">
+    <value>LabelHotKey2</value>
+  </data>
+  <data name="LabelApply.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LabelVersionProgram.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="LabelLanguage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Comic Sans MS, 9.75pt</value>
+  </data>
+  <data name="ButtonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 0</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKeys.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LabelMore.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LabelLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsWindow</value>
+  </data>
+  <data name="ButtonThemeLight.ToolTip" xml:space="preserve">
+    <value>Зміна теми програми на світлий стиль.</value>
+  </data>
+  <data name="&gt;&gt;LabelHotKey2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PanelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 2</value>
+  </data>
+  <data name="CheckBoxAutorun.Text" xml:space="preserve">
+    <value>Запускати програму разом із системою</value>
+  </data>
+  <data name="LabelHotKey4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 182</value>
+  </data>
+  <data name="LabelHotKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RadioButtonRU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 216</value>
+  </data>
+  <data name="PanelBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 436</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelHotKeys.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PanelBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>18, 17</value>
+  </metadata>
 </root>

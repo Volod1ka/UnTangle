@@ -16,40 +16,42 @@
 
         static ProgramProcess()
         {
-            Input(Properties.Settings.Default.ButtonSelected, Properties.Settings.Default.IdPanel1, Properties.Settings.Default.IdPanel2);
+            var Settings = Properties.Settings.Default;
+
+            Input(SelectedButton: Settings.ButtonSelected, idPanel1: Settings.IdPanel1, idPanel2: Settings.IdPanel2);
         }
 
         #endregion
 
         #region Public Methods
 
-        public static void SetButtonSelected(int button)
+        public static void SetButtonSelected(int Button)
         {
-            ButtonSelected = button;
+            ButtonSelected = Button;
 
-            Properties.Settings.Default.ButtonSelected = button;
+            Properties.Settings.Default.ButtonSelected = Button;
             Properties.Settings.Default.Save();
         }
 
-        public static void SetIdPanel1(int panel)
+        public static void SetIdPanel1(int Panel)
         {
-            IdPanel1 = panel;
+            IdPanel1 = Panel;
 
-            Properties.Settings.Default.IdPanel1 = panel;
+            Properties.Settings.Default.IdPanel1 = Panel;
             Properties.Settings.Default.Save();
         }
 
-        public static void SetIdPanel2(int panel)
+        public static void SetIdPanel2(int Panel)
         {
-            IdPanel2 = panel;
+            IdPanel2 = Panel;
 
-            Properties.Settings.Default.IdPanel2 = panel;
+            Properties.Settings.Default.IdPanel2 = Panel;
             Properties.Settings.Default.Save();
         }
 
-        public static void Input(int buttonSelected, int idPanel1, int idPanel2)
+        public static void Input(int SelectedButton, int idPanel1, int idPanel2)
         {
-            ButtonSelected = buttonSelected;
+            ButtonSelected = SelectedButton;
             IdPanel1 = idPanel1;
             IdPanel2 = idPanel2;
         }

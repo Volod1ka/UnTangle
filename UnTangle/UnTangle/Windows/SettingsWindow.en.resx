@@ -148,23 +148,33 @@
   <data name="ButtonThemeDark.ToolTip" xml:space="preserve">
     <value>Change the theme of the program to a dark style.</value>
   </data>
-  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 15</value>
-  </data>
-  <data name="LabelHotKey3.Text" xml:space="preserve">
-    <value>Alt + 2 — Change text editing settings</value>
-  </data>
   <data name="LabelHotKey2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 15</value>
+    <value>164, 15</value>
   </data>
   <data name="LabelHotKey2.Text" xml:space="preserve">
+    <value>Ctrl + ~ — To show text editing</value>
+  </data>
+  <data name="LabelHotKey2.ToolTip" xml:space="preserve">
+    <value>To implement the method it is necessary
+to select the text and press Ctrl+~.</value>
+  </data>
+  <data name="LabelHotKey4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 15</value>
+  </data>
+  <data name="LabelHotKey4.Text" xml:space="preserve">
+    <value>Alt + 2 — Change text editing settings</value>
+  </data>
+  <data name="LabelHotKey3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 15</value>
+  </data>
+  <data name="LabelHotKey3.Text" xml:space="preserve">
     <value>Alt + 1 — Change the text editing type</value>
   </data>
   <data name="LabelHotKey1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 15</value>
+    <value>184, 15</value>
   </data>
   <data name="LabelHotKey1.Text" xml:space="preserve">
-    <value>Ctrl + Q —Activate text editing</value>
+    <value>Ctrl + Q — To activate text editing</value>
   </data>
   <data name="LabelHotKey1.ToolTip" xml:space="preserve">
     <value>To implement the method it is necessary

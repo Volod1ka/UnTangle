@@ -24,3 +24,35 @@ D:\Microsoft Visual Studio\Projects\UnTangle\UnTangle\obj\x64\Release\UnTangle.c
 D:\Microsoft Visual Studio\Projects\UnTangle\UnTangle\obj\x64\Release\UnTangle.exe
 D:\Microsoft Visual Studio\Projects\UnTangle\UnTangle\obj\x64\Release\UnTangle.pdb
 D:\Microsoft Visual Studio\Projects\UnTangle\UnTangle\obj\x64\Release\UnTangle.csprojAssemblyReference.cache
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.csprojAssemblyReference.cache
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Languages.language.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.MainWindow.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.SettingsWindow.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Properties.Resources.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Languages.language.ru.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Languages.language.en.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.MainWindow.en.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.MainWindow.ru.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.SettingsWindow.en.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.SettingsWindow.ru.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.csproj.GenerateResource.cache
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.exe
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.pdb
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\UnTangle.exe.config
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\UnTangle.exe
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\UnTangle.pdb
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\ru\UnTangle.resources.dll
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\en\UnTangle.resources.dll
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\WindowsInput.dll
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\WindowsInput.pdb
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\bin\x64\Release\WindowsInput.xml
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\ru\UnTangle.resources.dll
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\en\UnTangle.resources.dll
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.csproj.CopyComplete
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.ShowTransliteration.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.ShowTransliteration.en.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.ShowTransliteration.ru.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Windows.MessageBoxWindow.Windows.MessageBoxWindows.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Windows.MessageBoxWindow.Windows.MessageBoxWindows.en.resources
+D:\Projects\GitHub\Repository\UnTangle\UnTangle\UnTangle\obj\x64\Release\UnTangle.Windows.MessageBoxWindow.Windows.MessageBoxWindows.ru.resources

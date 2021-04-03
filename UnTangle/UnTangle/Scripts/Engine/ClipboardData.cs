@@ -117,13 +117,13 @@ namespace UnTangle.Scripts.Engine
             return dict;
         }
         
-        public static void SetClipboardData(IDictionary<string, object> dict)
+        public static void SetClipboardData(IDictionary<string, object> Dictionary)
         {
             try
             {
                 System.Windows.Forms.IDataObject dataObject = new System.Windows.Forms.DataObject();
 
-                foreach (var kvp in dict)
+                foreach (var kvp in Dictionary)
                 {
                     dataObject.SetData(kvp.Key, kvp.Value);
                 }
