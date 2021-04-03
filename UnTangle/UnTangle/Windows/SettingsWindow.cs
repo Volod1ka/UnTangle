@@ -9,7 +9,7 @@ namespace UnTangle
 
         public SettingsWindow()
         {
-            Scripts.Language.SetLanguage(Properties.Settings.Default.Language);
+            Scripts.Language.SetLanguage(Language: Properties.Settings.Default.Language);
             InitializeComponent();
 
             LabelVersionProgram.Text = $"{Languages.language.Version}{Application.ProductVersion}";
@@ -65,25 +65,27 @@ namespace UnTangle
                 {
                     if (isSave = CheckingChange())
                     {
-                        Scripts.Engine.Engine.SetAutoRunValue(CheckBoxAutorun.Checked, Application.ExecutablePath);
+                        Scripts.Engine.Engine.SetAutoRunValue(isAtorun: CheckBoxAutorun.Checked, ExePath: Application.ExecutablePath);
                         Properties.Settings.Default.IdTheme = ThemeColors.IdTheme;
                         Properties.Settings.Default.IsVisibledWindow = CheckBoxShowMainWindow.Checked;
-                        Scripts.Language.SetLanguage(Scripts.Language.UILanguage);
+                        Scripts.Language.SetLanguage(Language: Scripts.Language.UILanguage);
 
                         Properties.Settings.Default.Save();
-                        MessageBox.Show(Languages.language.SuccessfullApply, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //MessageBox.Show(Languages.language.SuccessfullApply, Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Windows.MessageBoxWindow.MessageBoxWindow.Show(Message: Languages.language.SuccessfullApply, Caption: Application.ProductName, Buttons: MessageBoxButtons.OK);
                     }
 
-                    Scripts.Engine.Engine.CloseAndOpenWindow(isSave, this);
+                    Scripts.Engine.Engine.CloseAndOpenWindow(isSave: isSave, SettingsForm: this);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(Languages.language.FailedApply + ex.ToString(), Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                    //MessageBox.Show(Languages.language.FailedApply + ex.ToString(), Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                    Windows.MessageBoxWindow.MessageBoxWindow.Show(Message: Languages.language.FailedApply + ex.ToString(), Caption: Application.ProductName, Buttons: MessageBoxButtons.OKCancel);
                 }
             }
             else if (AccessToCancel())
             {
-                Scripts.Engine.Engine.CloseAndOpenWindow(isSave, this);
+                Scripts.Engine.Engine.CloseAndOpenWindow(isSave: isSave, SettingsForm: this);
             }
         }
 
@@ -91,9 +93,11 @@ namespace UnTangle
         {
             if (CheckingChange())
             {
-                DialogResult result = MessageBox.Show(Languages.language.CancelMessage, Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                //MessageBox.Show(Languages.language.CancelMessage, Application.ProductName, MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
 
-                return result.Equals(DialogResult.OK);
+                DialogResult result = Windows.MessageBoxWindow.MessageBoxWindow.Show(Message: Languages.language.CancelMessage, Caption: Application.ProductName, Buttons: MessageBoxButtons.YesNo);
+
+                return result.Equals(DialogResult.Yes);
             }
 
             return true;
@@ -142,49 +146,49 @@ namespace UnTangle
 
         private void SettingsWindow_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         #region Menu Methods
 
         private void LabelApply_Click(object sender, EventArgs e)
         {
-            SaveSettings(true);
+            SaveSettings(isSave: true);
         }
 
         private void LabelCancel_Click(object sender, EventArgs e)
         {
-            SaveSettings(false);
+            SaveSettings(isSave: false);
         }
 
         private void ButtonClose_Click(object sender, EventArgs e)
         {
-            SaveSettings(false);
+            SaveSettings(isSave: false);
         }
 
         private void PanelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void PanelTools_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void ButtonThemeLight_Click(object sender, EventArgs e)
         {
-            ThemeColors.ChangeTheme(0);
+            ThemeColors.ChangeTheme(Theme: 0);
         }
 
         private void ButtonThemeDarkBlue_Click(object sender, EventArgs e)
         {
-            ThemeColors.ChangeTheme(1);
+            ThemeColors.ChangeTheme(Theme: 1);
         }
 
         private void ButtonThemeDark_Click(object sender, EventArgs e)
         {
-            ThemeColors.ChangeTheme(2);
+            ThemeColors.ChangeTheme(Theme: 2);
         }
 
         private void ToolTip_Draw(object sender, DrawToolTipEventArgs e)

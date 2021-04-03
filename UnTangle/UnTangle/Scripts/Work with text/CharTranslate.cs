@@ -14,18 +14,18 @@ namespace UnTangle
 
         static CharTranslate()
         {
-            AddDictionaryList(Properties.Settings.Default.Language);
+            AddDictionaryList(Index: Properties.Settings.Default.Language);
         }
 
         #endregion
 
         #region Public Methods
 
-        public static void AddDictionaryList(int index)
+        public static void AddDictionaryList(int Index)
         {
             chDictionary.Clear();
 
-            if (index.Equals((int)Scripts.Language.Lang.Ua))
+            if (Index.Equals((int)Scripts.Language.Lang.Ua))
             {
                 #region Eng => Ua
                 #region Chars Down Eng => Ua
@@ -197,7 +197,7 @@ namespace UnTangle
                 #endregion
                 #endregion
             }
-            else if (index.Equals((int)Scripts.Language.Lang.Ru))
+            else if (Index.Equals((int)Scripts.Language.Lang.Ru))
             {
                 #region Eng => Ru
                 #region Chars Down Eng => Ru
@@ -371,23 +371,23 @@ namespace UnTangle
 
         public static string TranslateLangChar(string Text)
         {
-            string info = "";
+            string Result = "";
 
-            foreach (var ch in Text)
+            foreach (var Char in Text)
             {
-                var temp = "";
+                var Temp = "";
 
-                if (chDictionary.TryGetValue(ch.ToString(), out temp))
+                if (chDictionary.TryGetValue(Char.ToString(), out Temp))
                 {
-                    info += temp;
+                    Result += Temp;
                 }
                 else
                 {
-                    info += ch;
+                    Result += Char;
                 }
             }
 
-            return info;
+            return Result;
         }
 
         #endregion

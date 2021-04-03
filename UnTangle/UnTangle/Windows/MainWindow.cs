@@ -6,6 +6,7 @@ namespace UnTangle
 {
     public partial class MainWindow : Form
     {
+        //Comic Sans MS; 8,25pt
         // Designer this.Icon = System.Drawing.Icon.FromHandle(Properties.Resources.icon.Handle);
         #region Variables
 
@@ -36,23 +37,22 @@ namespace UnTangle
 
         #region Customer Methods
         
-        private void ShowMessageTip(int timeout, string tipTitle, string tipText, ToolTipIcon tipIcon)
+        private void ShowMessageTip(int Timeout, string TipTitle, string TipText, ToolTipIcon TipIcon)
         {
             if (!this.Visible)
             {
-                Notify.ShowBalloonTip(timeout, tipTitle, tipText, tipIcon);
+                Notify.ShowBalloonTip(Timeout, TipTitle, TipText, TipIcon);
             }
         }
        
         private void FormLocation()
         {
             // Визначення розширення екрану робочого стола.
-            Size screen = new Size(SystemInformation.PrimaryMonitorSize.Width, SystemInformation.PrimaryMonitorSize.Height);
+            var screen = SystemInformation.PrimaryMonitorSize;
+            var taskBar = new Size(Screen.PrimaryScreen.Bounds.Width - Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.Bounds.Height - Screen.PrimaryScreen.WorkingArea.Height);
 
-            Size taskBar = new Size(Screen.PrimaryScreen.Bounds.Width - Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.Bounds.Height - Screen.PrimaryScreen.WorkingArea.Height);
-            
             // Встановлення розположення головного вікна.
-            this.DesktopLocation = new Point(screen.Width - this.Width - taskBar.Width, screen.Height - this.Height - taskBar.Height);
+            this.DesktopLocation = new Point(x: screen.Width - this.Width - taskBar.Width, y: screen.Height - this.Height - taskBar.Height);
         }
         
         public void ChangeTheme(int idTheme)
@@ -216,7 +216,7 @@ namespace UnTangle
                 {
                     case 0:
                         {
-                            Scripts.Engine.Engine.ChangeText();
+                            Scripts.Engine.Engine.ChangeText();//wParam: m.WParam, lParam: m.LParam);
                         }
                         break;
                     case 1:
@@ -229,11 +229,16 @@ namespace UnTangle
                             TipText = ChangeSubMenu();
                         }
                         break;
+                    case 3:
+                        {
+                            Scripts.Engine.Engine.ShowChangeText();
+                        }
+                        break;
                 }
 
                 if (!string.IsNullOrEmpty(TipText))
                 {
-                    ShowMessageTip(1, Application.ProductName, TipText, ToolTipIcon.Info);
+                    ShowMessageTip(Timeout: 0, TipTitle: Application.ProductName, TipText: TipText, TipIcon: ToolTipIcon.Info);
                 }
             }
 
@@ -255,7 +260,7 @@ namespace UnTangle
         private void MainWindow_FormClosed(object sender, FormClosedEventArgs e)
         {
             ThemeColors.ChangeThemeEvents -= ChangeTheme;
-            Scripts.Engine.Engine.Unhook(Handle);
+            Scripts.Engine.Engine.Unhook(Handle: Handle);
             Application.Exit();
         }
 
@@ -271,7 +276,7 @@ namespace UnTangle
 
         private void Panel1(int id)
         {
-            ProgramProcess.SetIdPanel1(id);
+            ProgramProcess.SetIdPanel1(Panel: id);
 
             LabelENto.ForeColor = ButtonLanUa.ForeColor = ButtonLanRu.ForeColor = ThemeColors.ForeGround;
 
@@ -279,14 +284,14 @@ namespace UnTangle
             {
                 case 0:
                     {
-                        CharTranslate.AddDictionaryList((int)Scripts.Language.Lang.Ua);
+                        CharTranslate.AddDictionaryList(Index: (int)Scripts.Language.Lang.Ua);
                         ButtonLanUa.ForeColor = ThemeColors.Active;
                     }
                     break;
 
                 case 1:
                     {
-                        CharTranslate.AddDictionaryList((int)Scripts.Language.Lang.Ru);
+                        CharTranslate.AddDictionaryList(Index: (int)Scripts.Language.Lang.Ru);
                         ButtonLanRu.ForeColor = ThemeColors.Active;
                     }
                     break;
@@ -295,7 +300,7 @@ namespace UnTangle
 
         private void ChangeColor(int id)
         {
-            ProgramProcess.SetButtonSelected(id);
+            ProgramProcess.SetButtonSelected(Button: id);
 
             ButtonTranslit.ForeColor = ButtonCaseChanging.ForeColor = ButtonReverser.ForeColor = ThemeColors.ForeGround;
 
@@ -332,7 +337,7 @@ namespace UnTangle
 
         private void Panel2(int id)
         {
-            ProgramProcess.SetIdPanel2(id);
+            ProgramProcess.SetIdPanel2(Panel: id);
 
             ButtonToLower.ForeColor = ButtonToUpper.ForeColor = ButtonToTitleCase.ForeColor = ThemeColors.ForeGround;
 
@@ -384,12 +389,12 @@ namespace UnTangle
 
         private void ButtonLanUa_Click(object sender, EventArgs e)
         {
-            Panel1((int)Scripts.Language.Lang.Ua);
+            Panel1(id: (int)Scripts.Language.Lang.Ua);
         }
 
         private void ButtonLanRu_Click(object sender, EventArgs e)
         {
-            Panel1((int)Scripts.Language.Lang.Ru);
+            Panel1(id: (int)Scripts.Language.Lang.Ru);
         }
 
         private void ButtonExit_Click(object sender, EventArgs e)
@@ -401,32 +406,32 @@ namespace UnTangle
 
         private void ButtonTranslit_Click(object sender, EventArgs e)
         {
-            ChangeColor(1);
+            ChangeColor(id: 1);
         }
 
         private void ButtonCaseChanging_Click(object sender, EventArgs e)
         {
-            ChangeColor(2);
+            ChangeColor(id: 2);
         }
 
         private void ButtonReverser_Click(object sender, EventArgs e)
         {
-            ChangeColor(3);
+            ChangeColor(id: 3);
         }
 
         private void ButtonToLower_Click(object sender, EventArgs e)
         {
-            Panel2(1);
+            Panel2(id: 1);
         }
 
         private void ButtonToUpper_Click(object sender, EventArgs e)
         {
-            Panel2(2);
+            Panel2(id: 2);
         }
 
         private void ButtonToTitleCase_Click(object sender, EventArgs e)
         {
-            Panel2(3);
+            Panel2(id: 3);
         }
 
         private void ButtonSettings_Click(object sender, EventArgs e)
@@ -441,17 +446,17 @@ namespace UnTangle
 
         private void MainWindow_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void PanelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void PanelTools_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void ButtonClose_Click(object sender, EventArgs e)
@@ -473,14 +478,14 @@ namespace UnTangle
 
         private void LabelTitleProgram_MouseDown(object sender, MouseEventArgs e)
         {
-            Scripts.Engine.Engine.MoveWindow(e, Handle);
+            Scripts.Engine.Engine.MoveWindow(Event: e, Handle: Handle);
         }
 
         private void ToolTip_Draw(object sender, DrawToolTipEventArgs e)
         {
             e.DrawBackground();
             e.DrawBorder();
-            e.Graphics.DrawString(e.ToolTipText, this.Font, new SolidBrush(ThemeColors.ForeGround), new PointF(4, 2));
+            e.Graphics.DrawString(e.ToolTipText, this.Font, new SolidBrush(ThemeColors.ForeGround), new PointF(2, 2));
         }
 
         #endregion

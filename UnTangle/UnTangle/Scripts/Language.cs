@@ -16,11 +16,11 @@
 
         #region Public Methods
 
-        public static void SetLanguage(int language)
+        public static void SetLanguage(int Language)
         {
             string culture = string.Empty;
 
-            switch (language)
+            switch (Language)
             {
                 case (int)Lang.Ua:
                     {
@@ -42,7 +42,7 @@
             if (culture != string.Empty)
             {
                 System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(culture);
-                Properties.Settings.Default.Language = language;
+                Properties.Settings.Default.Language = Language;
                 Properties.Settings.Default.Save();
             }
         }

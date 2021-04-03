@@ -21,27 +21,26 @@ namespace UnTangle
 
         #region Public Methods
 
-        public static string CharToLower(string Other)
+        public static string CharToLower(string Text)
         {
-            return Other.ToLower();
+            return Text.ToLower();
         }
 
-        public static string CharToUpper(string Other)
+        public static string CharToUpper(string Text)
         {
-            return Other.ToUpper();
+            return Text.ToUpper();
         }
 
-        public static string CharToTitleCase(string Other)
+        public static string CharToTitleCase(string Text)
         {
-            return System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(Other.ToLower());
+            return System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.ToTitleCase(Text.ToLower());
         }
 
-        public static string CharReverse(string Other)
+        public static string CharReverse(string Text)
         {
-            return new string(Other.Reverse().ToArray());
+            return new string(Text.Reverse().ToArray());
         }
 
         #endregion
     }
-
 }
